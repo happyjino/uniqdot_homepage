@@ -331,6 +331,7 @@
 }}
 
 @media(max-width:768px){
+html {font-size: 9px}
 .main-container {
     width: 100%;
     max-width: 1920px;
@@ -338,7 +339,7 @@
 }
 /* 페이지 헤더 스타일 */
 .page-title {
-    font-size: 48px;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 20px;
     color: #333;
@@ -350,6 +351,7 @@
 }
 .about-content {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 50px 0;
     opacity: 1;
@@ -358,7 +360,7 @@
     border-bottom: none;
 }
 .about-subtitle {
-    font-size: 32px;
+    font-size: 2rem;
     color: #e67a00;
     position: relative;
     margin-bottom: 10px;
@@ -375,20 +377,20 @@
     width: 100%;
 }
 .about-text h4 {
-    font-size: 22px;
+    font-size: 1.98rem;
     color: #333;
     margin-bottom: 20px;
     text-align: center;
 }
 .about-text h4.ceo-quote {
-    font-size: 32px;
+    font-size: 2rem;
     color: #005A9C;
     margin-bottom: 40px;
     text-align: center;
     font-weight: 600;
 }
 .about-text p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.8;
     color: #333;
     margin-bottom: 20px;
@@ -399,7 +401,7 @@
     text-align: center;
 }
 .ceo-signature span {
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     font-weight: 500;
 }
@@ -432,7 +434,7 @@
     color: #333;
     line-height: 1.8;
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .company-info-table {
     max-width: 800px;
@@ -481,7 +483,7 @@
     margin: 20px auto 0;
     text-align: left;
     color: #333;
-    font-size: 16px;
+    font-size: 1rem;
     position: relative;
     z-index: 1;
     padding: 0 20px;
@@ -505,7 +507,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0 auto;
     position: absolute;
@@ -554,7 +556,7 @@
     position: absolute;
     color: #333;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -583,7 +585,7 @@
 .timeline-content p {
     margin-bottom: 8px;
     color: #333;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.6;
 }
 .timeline-content p:last-child {
@@ -644,18 +646,18 @@
     margin-bottom: 20px;
 }
 .patent-item p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #333;
     font-weight: 500;
     margin-bottom: 5px;
 }
 .patent-item span {
-    font-size: 14px;
+    font-size: 0.98rem;
     color: #777;
     display: block;
 }
 .about-text h4.ceo-quote {
-    font-size: 32px;
+    font-size: 2rem;
     color: #005A9C;
     margin-bottom: 40px;
     text-align: center;
