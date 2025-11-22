@@ -244,7 +244,7 @@
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
     /*공통*/
     * {
         position: relative;
@@ -448,16 +448,21 @@
     }
     #ft_wr .ft_cts {
         width: 100%;
-        margin: 0 auto;
-        padding: 35px 0;
+        /* margin: 0 auto; */
+        padding: 35px 30px;
         font-size: 14px;
         color: #666;
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        flex-direction: column;
+        /* margin: 0px 20px; */
     }
     #ft_wr .ft_cts .ft_logo {
-        margin-right: 100px;
+        /* width: 100vw; */
+        /* margin: 0px 20px; */
+        /* width: 400px; */
+        padding-bottom: 20px;
     }
     #ft_wr .ft_cts .ft_txt {
         text-align: left;

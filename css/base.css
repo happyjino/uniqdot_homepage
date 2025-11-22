@@ -12,7 +12,7 @@
     -webkit-text-size-adjust: none;
 }}
 
-@media(max-width:768px){html, body, table, input, textarea, select, button {
+@media(max-width:1199px){html, body, table, input, textarea, select, button {
     font-family: "Noto Sans KR", "Malgun Gothic", dotum, sans-serif;
     font-size: 1rem;
     color: #282828;
