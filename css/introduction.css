@@ -204,9 +204,16 @@
     pointer-events: none;
 }}
 
-@media(max-width:768px){/* 섹션 공통 스타일 */
+@media(max-width:1199px){/* 섹션 공통 스타일 */
+html {
+    font-size: 9px;
+}
+.main-container {
+    margin-top: 100px;
+}
+
 .section {
-    padding: 80px 0;
+    padding-top: 50px;
 }
 .section-container {
     max-width: 1200px;
@@ -214,11 +221,11 @@
     padding: 0 20px;
 }
 .section-title {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     position: relative;
 }
 .section-title h2 {
-    font-size: 32px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #ff8800;
     margin-bottom: 15px;
@@ -226,17 +233,17 @@
 }
 /* Quantum Dots 소개 섹션 */
 .quantum-intro {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .intro-text {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: #333;
 }
 .qd-showcase {
     display: flex;
-    gap: 50px;
+    gap: 20px;
     align-items: center;
     margin-bottom: 40px;
 }
@@ -253,27 +260,27 @@
     flex: 1;
 }
 .feature-title {
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: #333;
 }
 .feature-list {
     list-style: none;
 }
 .feature-list li {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
     display: flex;
     align-items: center;
 }
 .bullet {
     color: #ff8800;
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-right: 15px;
 }
 .conclusion-text {
-    font-size: 18px;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 /* 응용 분야 섹션 */
@@ -281,29 +288,29 @@
     margin-bottom: 50px;
 }
 .app-intro-text {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 30px;
 }
 .app-categories {
     background-color: #f9f9f9;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .app-category-title {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 6  00;
     margin-bottom: 20px;
 }
 .category-arrow {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #ff8800;
     margin-bottom: 20px;
 }
 .application-grid {
     display: flex;
-    gap: 30px;
+    gap: 15px;
 }
 .app-column {
     flex: 1;
@@ -315,52 +322,54 @@
 }
 .app-icon {
     color: #ff8800;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-right: 10px;
 }
 .app-name {
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 /* 핵심 혁신 기술 */
 .core-technologies {
     background-color: #f9f9f9;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
 }
 .core-tech-title {
-    font-size: 22px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     line-height: 1.4;
 }
 .tech-item {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .tech-number {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #ff8800;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .tech-content {
     flex: 1;
 }
 .tech-content p {
-    font-size: 16px;
+    font-size: 1.25rem;
     line-height: 1.6;
+    margin: 0;
     margin-bottom: 15px;
 }
 .tech-detail {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #555;
-    padding-left: 20px;
+    padding-left: 10px;
     line-height: 1.5;
 }
 /* 홍보 영상 섹션 */
 .video-container {
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .video-wrapper {
     position: relative;
@@ -396,7 +405,7 @@
     color: white;
     border: none;
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 1.25rem;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
