@@ -271,6 +271,7 @@
     }
     .sub_title {
         width: 100%;
+        white-space: nowrap;
     }
     .sub_title img {
         width: 100%;
